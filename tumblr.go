@@ -50,6 +50,9 @@ type Posts struct{
 	} `json:"posts"`
 }
 
+/**
+* tumblr
+*/
 
 //运行Meitulu
 func main() {

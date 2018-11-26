@@ -11,7 +11,9 @@ import (
 
 	"github.com/gocolly/colly"
 )
-
+/**
+* instagram 需要先解析请求参数：具体可见 https://www.diggernaut.com/blog/how-to-scrape-pages-infinite-scroll-extracting-data-from-instagram/
+*/
 // found in https://www.instagram.com/static/bundles/en_US_Commons.js/68e7390c5938.js
 // included from profile page
 const instagramQueryId = "42323d64886122307be10013ad2dcc45"
